@@ -4,12 +4,25 @@
 import random
 
 def get_first_part_of_name(name):
-	return ""
+	partie1 = name.split("-")[0] # liste -> ['Jean', 'Luc']
+
+	# mettre premiere lettre en majuscule
+	majuscule = partie1[0].upper() + partie1[1:].lower()
+	
+	return "Bonjour, " + majuscule
 
 def get_random_sentence(animals, adjectives, fruits):
-	return ""
+	
+	animal = animals[random.randrange(0, len(animals))]
+	adjectif = adjectives[random.randrange(0, len(adjectives))]
+	fruit = fruits[random.randrange(0, len(fruits))] 
+
+	# plus facile de faire une boucle
+
+	return (f"Aujourd'hui j'ai vu un {animal} s'emparer d’un panier {adjectif} plein de {fruit}.»")
 
 def encrypt(text, shift):
+	
 	return ""
 
 def decrypt(encrypted_text, shift):
