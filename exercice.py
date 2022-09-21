@@ -22,7 +22,7 @@ def get_random_sentence(animals, adjectives, fruits):
 	return (f"Aujourd'hui j'ai vu un {animal} s'emparer d’un panier {adjectif} plein de {fruit}.»")
 
 def encrypt(text, shift):
-	
+
 	return ""
 
 def decrypt(encrypted_text, shift):
