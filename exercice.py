@@ -28,11 +28,12 @@ def get_random_sentence(animals, adjectives, fruits):
 	
 
 def encrypt(text, shift):
+	
 
-	return encrypt(text, shift)
+	return 
 
 def decrypt(encrypted_text, shift):
-	return decrypt(encrypted_text, shift)
+	return 
 
 
 if __name__ == "__main__":
